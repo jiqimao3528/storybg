@@ -39,15 +39,21 @@
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
-</head>
 
-<body>
   <style>
+    /* 设置整个页面的背景为透明 */
+    body {
+      background-color: transparent !important;
+    }
+
     /* 使Flutter canvas背景透明 */
     .flt-glass-pane {
       background-color: transparent !important;
     }
   </style>
+</head>
+
+<body>
   <script>
     window.addEventListener('load', function (ev) {
       // Download main.dart.js
