@@ -22083,16 +22083,17 @@ this.$ti=a},
 vX:function vX(){},
 a0g:function a0g(){},
 O6:function O6(){},
-nB:function nB(a,b,c,d,e,f,g,h,i){var _=this
+nB:function nB(a,b,c,d,e,f,g,h,i,j){var _=this
 _.r=a
 _.Q=b
-_.ax=c
-_.cx=d
-_.ok=e
-_.ry=f
-_.az=g
-_.bo=h
-_.a=i},
+_.as=c
+_.ax=d
+_.cx=e
+_.ok=f
+_.ry=g
+_.az=h
+_.bo=i
+_.a=j},
 a0j:function a0j(a){this.a=a},
 a0k:function a0k(a){this.a=a},
 a0h:function a0h(a){this.a=a},
@@ -40799,7 +40800,7 @@ A.HU.prototype={
 K(a){return new A.yj(new A.a5a(this),!0,!0,B.JE,null)}}
 A.a5a.prototype={
 $2(a,b){var s=null,r=A.atq(s,B.a0,B.a0,s)
-return new A.nB("/helpStoryBackground",A.aAY(new A.a59(this.a)),r,B.a0,!1,B.we,s,$.awF(),s)},
+return new A.nB("/helpStoryBackground",A.aAY(new A.a59(this.a)),"\u6545\u4e8b\u80cc\u666f",r,B.a0,!1,B.we,s,$.awF(),s)},
 $S:354}
 A.a59.prototype={
 $2(a,b){return A.wQ(b,A.cZ(a,null,t.w).w.a6V(B.ap),null)},
@@ -71134,7 +71135,7 @@ p=q.ax
 o=p
 n=$.am7().a
 if(n==null)n=m
-n=new A.nY(r,a.p1,m,B.Gk,q.r,q.gQe(),q.gaaf(),m,s,m,m,m,m,q.ga7C(),"",m,o,p,B.wb,q.cx,n,m,m,m,B.kS,!1,!1,!1,!1,!1,m,m,!1,m)
+n=new A.nY(r,a.p1,m,B.Gk,q.r,q.gQe(),q.gaaf(),m,s,m,m,m,m,q.ga7C(),q.as,m,o,p,B.wb,q.cx,n,m,m,m,B.kS,!1,!1,!1,!1,!1,m,m,!1,m)
 s=n
 return s},
 $S:483}
