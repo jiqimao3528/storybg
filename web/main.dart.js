@@ -42168,7 +42168,7 @@ q=window.navigator.userAgent.toLowerCase()
 s=window.navigator.platform
 p=s==null?m:s.toLowerCase()
 o=B.c.A(q,"iphone")||B.c.A(q,"ipad")||B.c.A(q,"ipod")||B.c.A(q,"android")
-if(p!=null)if(B.c.A(p,"MacIntel"))if(window.navigator.maxTouchPoints!=null){s=window.navigator.maxTouchPoints
+if(p!=null)if(B.c.A(p,"macintel"))if(window.navigator.maxTouchPoints!=null){s=window.navigator.maxTouchPoints
 s.toString
 s=s>1
 n=s}else n=!1
@@ -42216,9 +42216,11 @@ if(a.cx){s=a.ch
 return A.fE(r,r,B.r,B.a0,r,r,826*s,r,r,1450*s)}else return B.cd},
 $S:318}
 A.ack.prototype={
-$1(a){var s,r=null
+$1(a){var s,r,q,p=null
 if(a.cx){s=136*a.ch
-return A.bI(A.H8(r,A.fE(r,r,B.r,r,r,B.y2,s,r,r,s),B.aO,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.acf(a),r,r,r),r,r)}else return B.cd},
+r=s>136
+q=r?136:s
+return A.bI(A.H8(p,A.fE(p,p,B.r,p,p,B.y2,r?136:s,p,p,q),B.aO,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.acf(a),p,p,p),p,p)}else return B.cd},
 $S:317}
 A.acf.prototype={
 $0(){return this.a.ae0()},
@@ -79599,12 +79601,12 @@ B.zC=new A.i0("https://hlsziyuan.zhixuedayuwen.cn/RoundGame/storybg/bg.png")
 B.fk=new A.v_(1,"contain")
 B.b2=new A.qm(3,"noRepeat")
 B.bd=new A.a0u(1,"low")
-B.B0=new A.lP(B.zC,B.fk)
+B.B1=new A.lP(B.zC,B.fk)
 B.ab=new A.Ff(0,"rectangle")
-B.y1=new A.bS(B.a0,B.B0,null,null,null,null,B.ab)
-B.zB=new A.i0("https://hlsziyuan.zhixuedayuwen.cn/RoundGame/storybg/playBtn.png")
-B.B1=new A.lP(B.zB,B.fk)
-B.y2=new A.bS(null,B.B1,null,null,null,null,B.ab)
+B.y1=new A.bS(B.a0,B.B1,null,null,null,null,B.ab)
+B.zB=new A.i0("https://hlsziyuan.zhixuedayuwen.cn/RoundGame/storybg/playBtn1226.png")
+B.B0=new A.lP(B.zB,B.fk)
+B.y2=new A.bS(null,B.B0,null,null,null,null,B.ab)
 B.fl=new A.v_(2,"cover")
 B.y3=new A.v_(6,"scaleDown")
 B.j7=new A.Fc(0,"tight")
